@@ -1,8 +1,381 @@
 Date,Home Team,Score,Away Team,Venue,Referee
-2024-10-19T11:30:00+00:00,Tottenham,4 - 1,West Ham,Tottenham Hotspur Stadium,"Andy Madley, England"
-2024-10-19T14:00:00+00:00,Manchester United,2 - 1,Brentford,Old Trafford,"Samuel Barrott, England"
-2024-10-19T14:00:00+00:00,Newcastle,0 - 1,Brighton,St. James' Park,"Peter Bankes, England"
-2024-10-19T14:00:00+00:00,Fulham,1 - 3,Aston Villa,Craven Cottage,"Darren England, England"
-2024-10-19T14:00:00+00:00,Southampton,2 - 3,Leicester,St. Mary's Stadium,"Anthony Taylor, England"
-2024-10-19T14:00:00+00:00,Ipswich,0 - 2,Everton,Portman Road,"Michael Oliver, England"
-2024-10-19T16:30:00+00:00,Bournemouth,2 - 0,Arsenal,Vitality Stadium,"Robert Jones, England"
+2024-08-16T19:00:00+00:00,Manchester United,1 - 0,Fulham,Old Trafford,
+2024-08-17T11:30:00+00:00,Ipswich,0 - 2,Liverpool,Portman Road,
+2024-08-17T14:00:00+00:00,Newcastle,1 - 0,Southampton,St. James' Park,
+2024-08-17T14:00:00+00:00,Arsenal,2 - 0,Wolves,Emirates Stadium,
+2024-08-17T14:00:00+00:00,Everton,0 - 3,Brighton,Goodison Park,
+2024-08-17T14:00:00+00:00,Nottingham Forest,1 - 1,Bournemouth,The City Ground,
+2024-08-17T16:30:00+00:00,West Ham,1 - 2,Aston Villa,London Stadium,
+2024-08-18T13:00:00+00:00,Brentford,2 - 1,Crystal Palace,Gtech Community Stadium,
+2024-08-18T15:30:00+00:00,Chelsea,0 - 2,Manchester City,Stamford Bridge,
+2024-08-19T19:00:00+00:00,Leicester,1 - 1,Tottenham,King Power Stadium,
+2024-08-24T11:30:00+00:00,Brighton,2 - 1,Manchester United,American Express Stadium,
+2024-08-24T14:00:00+00:00,Fulham,2 - 1,Leicester,Craven Cottage,
+2024-08-24T14:00:00+00:00,Southampton,0 - 1,Nottingham Forest,St. Mary's Stadium,
+2024-08-24T14:00:00+00:00,Tottenham,4 - 0,Everton,Tottenham Hotspur Stadium,
+2024-08-24T14:00:00+00:00,Manchester City,4 - 1,Ipswich,Etihad Stadium,
+2024-08-24T14:00:00+00:00,Crystal Palace,0 - 2,West Ham,Selhurst Park,
+2024-08-24T16:30:00+00:00,Aston Villa,0 - 2,Arsenal,Villa Park,
+2024-08-25T13:00:00+00:00,Bournemouth,1 - 1,Newcastle,Vitality Stadium,
+2024-08-25T13:00:00+00:00,Wolves,2 - 6,Chelsea,Molineux Stadium,
+2024-08-25T15:30:00+00:00,Liverpool,2 - 0,Brentford,Anfield,
+2024-08-31T11:30:00+00:00,Arsenal,1 - 1,Brighton,Emirates Stadium,
+2024-08-31T14:00:00+00:00,Everton,2 - 3,Bournemouth,Goodison Park,
+2024-08-31T14:00:00+00:00,Leicester,1 - 2,Aston Villa,King Power Stadium,
+2024-08-31T14:00:00+00:00,Brentford,3 - 1,Southampton,Gtech Community Stadium,
+2024-08-31T14:00:00+00:00,Ipswich,1 - 1,Fulham,Portman Road,
+2024-08-31T14:00:00+00:00,Nottingham Forest,1 - 1,Wolves,The City Ground,
+2024-08-31T16:30:00+00:00,West Ham,1 - 3,Manchester City,London Stadium,
+2024-09-01T12:30:00+00:00,Newcastle,2 - 1,Tottenham,St. James' Park,
+2024-09-01T12:30:00+00:00,Chelsea,1 - 1,Crystal Palace,Stamford Bridge,
+2024-09-01T15:00:00+00:00,Manchester United,0 - 3,Liverpool,Old Trafford,
+2024-09-14T11:30:00+00:00,Southampton,0 - 3,Manchester United,St. Mary's Stadium,
+2024-09-14T14:00:00+00:00,Fulham,1 - 1,West Ham,Craven Cottage,
+2024-09-14T14:00:00+00:00,Liverpool,0 - 1,Nottingham Forest,Anfield,
+2024-09-14T14:00:00+00:00,Manchester City,2 - 1,Brentford,Etihad Stadium,
+2024-09-14T14:00:00+00:00,Brighton,0 - 0,Ipswich,American Express Stadium,
+2024-09-14T14:00:00+00:00,Crystal Palace,2 - 2,Leicester,Selhurst Park,
+2024-09-14T16:30:00+00:00,Aston Villa,3 - 2,Everton,Villa Park,
+2024-09-14T19:00:00+00:00,Bournemouth,0 - 1,Chelsea,Vitality Stadium,
+2024-09-15T13:00:00+00:00,Tottenham,0 - 1,Arsenal,Tottenham Hotspur Stadium,
+2024-09-15T15:30:00+00:00,Wolves,1 - 2,Newcastle,Molineux Stadium,
+2024-09-21T11:30:00+00:00,West Ham,0 - 3,Chelsea,London Stadium,
+2024-09-21T14:00:00+00:00,Fulham,3 - 1,Newcastle,Craven Cottage,
+2024-09-21T14:00:00+00:00,Liverpool,3 - 0,Bournemouth,Anfield,
+2024-09-21T14:00:00+00:00,Southampton,1 - 1,Ipswich,St. Mary's Stadium,
+2024-09-21T14:00:00+00:00,Leicester,1 - 1,Everton,King Power Stadium,
+2024-09-21T14:00:00+00:00,Tottenham,3 - 1,Brentford,Tottenham Hotspur Stadium,
+2024-09-21T14:00:00+00:00,Aston Villa,3 - 1,Wolves,Villa Park,
+2024-09-21T16:30:00+00:00,Crystal Palace,0 - 0,Manchester United,Selhurst Park,
+2024-09-22T13:00:00+00:00,Brighton,2 - 2,Nottingham Forest,American Express Stadium,
+2024-09-22T15:30:00+00:00,Manchester City,2 - 2,Arsenal,Etihad Stadium,
+2024-09-28T11:30:00+00:00,Newcastle,1 - 1,Manchester City,St. James' Park,
+2024-09-28T14:00:00+00:00,Arsenal,4 - 2,Leicester,Emirates Stadium,
+2024-09-28T14:00:00+00:00,Everton,2 - 1,Crystal Palace,Goodison Park,
+2024-09-28T14:00:00+00:00,Chelsea,4 - 2,Brighton,Stamford Bridge,
+2024-09-28T14:00:00+00:00,Brentford,1 - 1,West Ham,Gtech Community Stadium,
+2024-09-28T14:00:00+00:00,Nottingham Forest,0 - 1,Fulham,The City Ground,
+2024-09-28T16:30:00+00:00,Wolves,1 - 2,Liverpool,Molineux Stadium,
+2024-09-29T13:00:00+00:00,Ipswich,2 - 2,Aston Villa,Portman Road,
+2024-09-29T15:30:00+00:00,Manchester United,0 - 3,Tottenham,Old Trafford,
+2024-09-30T19:00:00+00:00,Bournemouth,3 - 1,Southampton,Vitality Stadium,
+2024-10-05T11:30:00+00:00,Crystal Palace,0 - 1,Liverpool,Selhurst Park,
+2024-10-05T14:00:00+00:00,Arsenal,3 - 1,Southampton,Emirates Stadium,
+2024-10-05T14:00:00+00:00,Leicester,1 - 0,Bournemouth,King Power Stadium,
+2024-10-05T14:00:00+00:00,West Ham,4 - 1,Ipswich,London Stadium,
+2024-10-05T14:00:00+00:00,Manchester City,3 - 2,Fulham,Etihad Stadium,
+2024-10-05T14:00:00+00:00,Brentford,5 - 3,Wolves,Gtech Community Stadium,
+2024-10-05T16:30:00+00:00,Everton,0 - 0,Newcastle,Goodison Park,
+2024-10-06T13:00:00+00:00,Chelsea,1 - 1,Nottingham Forest,Stamford Bridge,
+2024-10-06T13:00:00+00:00,Aston Villa,0 - 0,Manchester United,Villa Park,
+2024-10-06T15:30:00+00:00,Brighton,3 - 2,Tottenham,American Express Stadium,
+2024-10-19T11:30:00+00:00,Tottenham,4 - 1,West Ham,Tottenham Hotspur Stadium,
+2024-10-19T14:00:00+00:00,Manchester United,2 - 1,Brentford,Old Trafford,
+2024-10-19T14:00:00+00:00,Newcastle,0 - 1,Brighton,St. James' Park,
+2024-10-19T14:00:00+00:00,Fulham,1 - 3,Aston Villa,Craven Cottage,
+2024-10-19T14:00:00+00:00,Southampton,2 - 3,Leicester,St. Mary's Stadium,
+2024-10-19T14:00:00+00:00,Ipswich,0 - 2,Everton,Portman Road,
+2024-10-19T16:30:00+00:00,Bournemouth,2 - 0,Arsenal,Vitality Stadium,
+2024-10-20T13:00:00+00:00,Wolves,null - null,Manchester City,Molineux Stadium,N/A
+2024-10-20T15:30:00+00:00,Liverpool,null - null,Chelsea,Anfield,N/A
+2024-10-21T19:00:00+00:00,Nottingham Forest,null - null,Crystal Palace,The City Ground,N/A
+2024-10-25T19:00:00+00:00,Leicester,null - null,Nottingham Forest,King Power Stadium,N/A
+2024-10-26T14:00:00+00:00,Manchester City,null - null,Southampton,Etihad Stadium,N/A
+2024-10-26T14:00:00+00:00,Brighton,null - null,Wolves,American Express Stadium,N/A
+2024-10-26T14:00:00+00:00,Brentford,null - null,Ipswich,Gtech Community Stadium,N/A
+2024-10-26T14:00:00+00:00,Aston Villa,null - null,Bournemouth,Villa Park,N/A
+2024-10-26T16:30:00+00:00,Everton,null - null,Fulham,Goodison Park,N/A
+2024-10-27T14:00:00+00:00,West Ham,null - null,Manchester United,London Stadium,N/A
+2024-10-27T14:00:00+00:00,Chelsea,null - null,Newcastle,Stamford Bridge,N/A
+2024-10-27T14:00:00+00:00,Crystal Palace,null - null,Tottenham,Selhurst Park,N/A
+2024-10-27T16:30:00+00:00,Arsenal,null - null,Liverpool,Emirates Stadium,N/A
+2024-11-02T12:30:00+00:00,Newcastle,null - null,Arsenal,St. James' Park,N/A
+2024-11-02T15:00:00+00:00,Bournemouth,null - null,Manchester City,Vitality Stadium,N/A
+2024-11-02T15:00:00+00:00,Liverpool,null - null,Brighton,Anfield,N/A
+2024-11-02T15:00:00+00:00,Southampton,null - null,Everton,St. Mary's Stadium,N/A
+2024-11-02T15:00:00+00:00,Ipswich,null - null,Leicester,Portman Road,N/A
+2024-11-02T15:00:00+00:00,Nottingham Forest,null - null,West Ham,The City Ground,N/A
+2024-11-02T17:30:00+00:00,Wolves,null - null,Crystal Palace,Molineux Stadium,N/A
+2024-11-03T14:00:00+00:00,Tottenham,null - null,Aston Villa,Tottenham Hotspur Stadium,N/A
+2024-11-03T16:30:00+00:00,Manchester United,null - null,Chelsea,Old Trafford,N/A
+2024-11-04T20:00:00+00:00,Fulham,null - null,Brentford,Craven Cottage,N/A
+2024-11-09T15:00:00+00:00,Wolves,null - null,Southampton,Molineux Stadium,N/A
+2024-11-09T15:00:00+00:00,West Ham,null - null,Everton,London Stadium,N/A
+2024-11-09T15:00:00+00:00,Crystal Palace,null - null,Fulham,Selhurst Park,N/A
+2024-11-09T15:00:00+00:00,Brentford,null - null,Bournemouth,Gtech Community Stadium,N/A
+2024-11-09T17:30:00+00:00,Brighton,null - null,Manchester City,American Express Stadium,N/A
+2024-11-09T20:00:00+00:00,Liverpool,null - null,Aston Villa,Anfield,N/A
+2024-11-10T14:00:00+00:00,Manchester United,null - null,Leicester,Old Trafford,N/A
+2024-11-10T14:00:00+00:00,Tottenham,null - null,Ipswich,Tottenham Hotspur Stadium,N/A
+2024-11-10T14:00:00+00:00,Nottingham Forest,null - null,Newcastle,The City Ground,N/A
+2024-11-10T16:30:00+00:00,Chelsea,null - null,Arsenal,Stamford Bridge,N/A
+2024-11-23T12:30:00+00:00,Leicester,null - null,Chelsea,King Power Stadium,N/A
+2024-11-23T15:00:00+00:00,Bournemouth,null - null,Brighton,Vitality Stadium,N/A
+2024-11-23T15:00:00+00:00,Fulham,null - null,Wolves,Craven Cottage,N/A
+2024-11-23T15:00:00+00:00,Arsenal,null - null,Nottingham Forest,Emirates Stadium,N/A
+2024-11-23T15:00:00+00:00,Everton,null - null,Brentford,Goodison Park,N/A
+2024-11-23T15:00:00+00:00,Aston Villa,null - null,Crystal Palace,Villa Park,N/A
+2024-11-23T17:30:00+00:00,Manchester City,null - null,Tottenham,Etihad Stadium,N/A
+2024-11-24T14:00:00+00:00,Southampton,null - null,Liverpool,St. Mary's Stadium,N/A
+2024-11-24T16:30:00+00:00,Ipswich,null - null,Manchester United,Portman Road,N/A
+2024-11-25T20:00:00+00:00,Newcastle,null - null,West Ham,St. James' Park,N/A
+2024-11-29T20:00:00+00:00,Brighton,null - null,Southampton,American Express Stadium,N/A
+2024-11-30T15:00:00+00:00,Wolves,null - null,Bournemouth,Molineux Stadium,N/A
+2024-11-30T15:00:00+00:00,Crystal Palace,null - null,Newcastle,Selhurst Park,N/A
+2024-11-30T15:00:00+00:00,Brentford,null - null,Leicester,Gtech Community Stadium,N/A
+2024-11-30T15:00:00+00:00,Nottingham Forest,null - null,Ipswich,The City Ground,N/A
+2024-11-30T17:30:00+00:00,West Ham,null - null,Arsenal,London Stadium,N/A
+2024-12-01T13:30:00+00:00,Manchester United,null - null,Everton,Old Trafford,N/A
+2024-12-01T13:30:00+00:00,Tottenham,null - null,Fulham,Tottenham Hotspur Stadium,N/A
+2024-12-01T13:30:00+00:00,Chelsea,null - null,Aston Villa,Stamford Bridge,N/A
+2024-12-01T16:00:00+00:00,Liverpool,null - null,Manchester City,Anfield,N/A
+2024-12-03T19:45:00+00:00,Bournemouth,null - null,Tottenham,Vitality Stadium,N/A
+2024-12-03T19:45:00+00:00,Fulham,null - null,Brighton,Craven Cottage,N/A
+2024-12-03T19:45:00+00:00,Arsenal,null - null,Manchester United,Emirates Stadium,N/A
+2024-12-03T19:45:00+00:00,Everton,null - null,Wolves,Goodison Park,N/A
+2024-12-03T19:45:00+00:00,Leicester,null - null,West Ham,King Power Stadium,N/A
+2024-12-03T19:45:00+00:00,Ipswich,null - null,Crystal Palace,Portman Road,N/A
+2024-12-03T19:45:00+00:00,Aston Villa,null - null,Brentford,Villa Park,N/A
+2024-12-04T19:45:00+00:00,Newcastle,null - null,Liverpool,St. James' Park,N/A
+2024-12-04T19:45:00+00:00,Southampton,null - null,Chelsea,St. Mary's Stadium,N/A
+2024-12-04T19:45:00+00:00,Manchester City,null - null,Nottingham Forest,Etihad Stadium,N/A
+2024-12-07T15:00:00+00:00,Manchester United,null - null,Nottingham Forest,Old Trafford,N/A
+2024-12-07T15:00:00+00:00,Fulham,null - null,Arsenal,Craven Cottage,N/A
+2024-12-07T15:00:00+00:00,Everton,null - null,Liverpool,Goodison Park,N/A
+2024-12-07T15:00:00+00:00,Leicester,null - null,Brighton,King Power Stadium,N/A
+2024-12-07T15:00:00+00:00,Tottenham,null - null,Chelsea,Tottenham Hotspur Stadium,N/A
+2024-12-07T15:00:00+00:00,West Ham,null - null,Wolves,London Stadium,N/A
+2024-12-07T15:00:00+00:00,Crystal Palace,null - null,Manchester City,Selhurst Park,N/A
+2024-12-07T15:00:00+00:00,Brentford,null - null,Newcastle,Gtech Community Stadium,N/A
+2024-12-07T15:00:00+00:00,Ipswich,null - null,Bournemouth,Portman Road,N/A
+2024-12-07T15:00:00+00:00,Aston Villa,null - null,Southampton,Villa Park,N/A
+2024-12-14T15:00:00+00:00,Newcastle,null - null,Leicester,St. James' Park,N/A
+2024-12-14T15:00:00+00:00,Bournemouth,null - null,West Ham,Vitality Stadium,N/A
+2024-12-14T15:00:00+00:00,Wolves,null - null,Ipswich,Molineux Stadium,N/A
+2024-12-14T15:00:00+00:00,Liverpool,null - null,Fulham,Anfield,N/A
+2024-12-14T15:00:00+00:00,Southampton,null - null,Tottenham,St. Mary's Stadium,N/A
+2024-12-14T15:00:00+00:00,Arsenal,null - null,Everton,Emirates Stadium,N/A
+2024-12-14T15:00:00+00:00,Chelsea,null - null,Brentford,Stamford Bridge,N/A
+2024-12-14T15:00:00+00:00,Manchester City,null - null,Manchester United,Etihad Stadium,N/A
+2024-12-14T15:00:00+00:00,Brighton,null - null,Crystal Palace,American Express Stadium,N/A
+2024-12-14T15:00:00+00:00,Nottingham Forest,null - null,Aston Villa,The City Ground,N/A
+2024-12-21T15:00:00+00:00,Manchester United,null - null,Bournemouth,Old Trafford,N/A
+2024-12-21T15:00:00+00:00,Fulham,null - null,Southampton,Craven Cottage,N/A
+2024-12-21T15:00:00+00:00,Everton,null - null,Chelsea,Goodison Park,N/A
+2024-12-21T15:00:00+00:00,Leicester,null - null,Wolves,King Power Stadium,N/A
+2024-12-21T15:00:00+00:00,Tottenham,null - null,Liverpool,Tottenham Hotspur Stadium,N/A
+2024-12-21T15:00:00+00:00,West Ham,null - null,Brighton,London Stadium,N/A
+2024-12-21T15:00:00+00:00,Crystal Palace,null - null,Arsenal,Selhurst Park,N/A
+2024-12-21T15:00:00+00:00,Brentford,null - null,Nottingham Forest,Gtech Community Stadium,N/A
+2024-12-21T15:00:00+00:00,Ipswich,null - null,Newcastle,Portman Road,N/A
+2024-12-21T15:00:00+00:00,Aston Villa,null - null,Manchester City,Villa Park,N/A
+2024-12-26T15:00:00+00:00,Newcastle,null - null,Aston Villa,St. James' Park,N/A
+2024-12-26T15:00:00+00:00,Bournemouth,null - null,Crystal Palace,Vitality Stadium,N/A
+2024-12-26T15:00:00+00:00,Wolves,null - null,Manchester United,Molineux Stadium,N/A
+2024-12-26T15:00:00+00:00,Liverpool,null - null,Leicester,Anfield,N/A
+2024-12-26T15:00:00+00:00,Southampton,null - null,West Ham,St. Mary's Stadium,N/A
+2024-12-26T15:00:00+00:00,Arsenal,null - null,Ipswich,Emirates Stadium,N/A
+2024-12-26T15:00:00+00:00,Chelsea,null - null,Fulham,Stamford Bridge,N/A
+2024-12-26T15:00:00+00:00,Manchester City,null - null,Everton,Etihad Stadium,N/A
+2024-12-26T15:00:00+00:00,Brighton,null - null,Brentford,American Express Stadium,N/A
+2024-12-26T15:00:00+00:00,Nottingham Forest,null - null,Tottenham,The City Ground,N/A
+2024-12-29T15:00:00+00:00,Manchester United,null - null,Newcastle,Old Trafford,N/A
+2024-12-29T15:00:00+00:00,Fulham,null - null,Bournemouth,Craven Cottage,N/A
+2024-12-29T15:00:00+00:00,Everton,null - null,Nottingham Forest,Goodison Park,N/A
+2024-12-29T15:00:00+00:00,Leicester,null - null,Manchester City,King Power Stadium,N/A
+2024-12-29T15:00:00+00:00,Tottenham,null - null,Wolves,Tottenham Hotspur Stadium,N/A
+2024-12-29T15:00:00+00:00,West Ham,null - null,Liverpool,London Stadium,N/A
+2024-12-29T15:00:00+00:00,Crystal Palace,null - null,Southampton,Selhurst Park,N/A
+2024-12-29T15:00:00+00:00,Brentford,null - null,Arsenal,Gtech Community Stadium,N/A
+2024-12-29T15:00:00+00:00,Ipswich,null - null,Chelsea,Portman Road,N/A
+2024-12-29T15:00:00+00:00,Aston Villa,null - null,Brighton,Villa Park,N/A
+2025-01-04T15:00:00+00:00,Bournemouth,null - null,Everton,Vitality Stadium,N/A
+2025-01-04T15:00:00+00:00,Fulham,null - null,Ipswich,Craven Cottage,N/A
+2025-01-04T15:00:00+00:00,Wolves,null - null,Nottingham Forest,Molineux Stadium,N/A
+2025-01-04T15:00:00+00:00,Liverpool,null - null,Manchester United,Anfield,N/A
+2025-01-04T15:00:00+00:00,Southampton,null - null,Brentford,St. Mary's Stadium,N/A
+2025-01-04T15:00:00+00:00,Tottenham,null - null,Newcastle,Tottenham Hotspur Stadium,N/A
+2025-01-04T15:00:00+00:00,Manchester City,null - null,West Ham,Etihad Stadium,N/A
+2025-01-04T15:00:00+00:00,Brighton,null - null,Arsenal,American Express Stadium,N/A
+2025-01-04T15:00:00+00:00,Crystal Palace,null - null,Chelsea,Selhurst Park,N/A
+2025-01-04T15:00:00+00:00,Aston Villa,null - null,Leicester,Villa Park,N/A
+2025-01-14T19:45:00+00:00,Arsenal,null - null,Tottenham,Emirates Stadium,N/A
+2025-01-14T19:45:00+00:00,Everton,null - null,Aston Villa,Goodison Park,N/A
+2025-01-14T19:45:00+00:00,Leicester,null - null,Crystal Palace,King Power Stadium,N/A
+2025-01-14T19:45:00+00:00,West Ham,null - null,Fulham,London Stadium,N/A
+2025-01-14T19:45:00+00:00,Brentford,null - null,Manchester City,Gtech Community Stadium,N/A
+2025-01-14T19:45:00+00:00,Ipswich,null - null,Brighton,Portman Road,N/A
+2025-01-14T19:45:00+00:00,Nottingham Forest,null - null,Liverpool,The City Ground,N/A
+2025-01-15T19:45:00+00:00,Newcastle,null - null,Wolves,St. James' Park,N/A
+2025-01-15T19:45:00+00:00,Chelsea,null - null,Bournemouth,Stamford Bridge,N/A
+2025-01-15T20:00:00+00:00,Manchester United,null - null,Southampton,Old Trafford,N/A
+2025-01-18T15:00:00+00:00,Manchester United,null - null,Brighton,Old Trafford,N/A
+2025-01-18T15:00:00+00:00,Newcastle,null - null,Bournemouth,St. James' Park,N/A
+2025-01-18T15:00:00+00:00,Arsenal,null - null,Aston Villa,Emirates Stadium,N/A
+2025-01-18T15:00:00+00:00,Everton,null - null,Tottenham,Goodison Park,N/A
+2025-01-18T15:00:00+00:00,Leicester,null - null,Fulham,King Power Stadium,N/A
+2025-01-18T15:00:00+00:00,West Ham,null - null,Crystal Palace,London Stadium,N/A
+2025-01-18T15:00:00+00:00,Chelsea,null - null,Wolves,Stamford Bridge,N/A
+2025-01-18T15:00:00+00:00,Brentford,null - null,Liverpool,Gtech Community Stadium,N/A
+2025-01-18T15:00:00+00:00,Ipswich,null - null,Manchester City,Portman Road,N/A
+2025-01-18T15:00:00+00:00,Nottingham Forest,null - null,Southampton,The City Ground,N/A
+2025-01-25T15:00:00+00:00,Bournemouth,null - null,Nottingham Forest,Vitality Stadium,N/A
+2025-01-25T15:00:00+00:00,Fulham,null - null,Manchester United,Craven Cottage,N/A
+2025-01-25T15:00:00+00:00,Wolves,null - null,Arsenal,Molineux Stadium,N/A
+2025-01-25T15:00:00+00:00,Liverpool,null - null,Ipswich,Anfield,N/A
+2025-01-25T15:00:00+00:00,Southampton,null - null,Newcastle,St. Mary's Stadium,N/A
+2025-01-25T15:00:00+00:00,Tottenham,null - null,Leicester,Tottenham Hotspur Stadium,N/A
+2025-01-25T15:00:00+00:00,Manchester City,null - null,Chelsea,Etihad Stadium,N/A
+2025-01-25T15:00:00+00:00,Brighton,null - null,Everton,American Express Stadium,N/A
+2025-01-25T15:00:00+00:00,Crystal Palace,null - null,Brentford,Selhurst Park,N/A
+2025-01-25T15:00:00+00:00,Aston Villa,null - null,West Ham,Villa Park,N/A
+2025-02-01T15:00:00+00:00,Manchester United,null - null,Crystal Palace,Old Trafford,N/A
+2025-02-01T15:00:00+00:00,Newcastle,null - null,Fulham,St. James' Park,N/A
+2025-02-01T15:00:00+00:00,Bournemouth,null - null,Liverpool,Vitality Stadium,N/A
+2025-02-01T15:00:00+00:00,Wolves,null - null,Aston Villa,Molineux Stadium,N/A
+2025-02-01T15:00:00+00:00,Arsenal,null - null,Manchester City,Emirates Stadium,N/A
+2025-02-01T15:00:00+00:00,Everton,null - null,Leicester,Goodison Park,N/A
+2025-02-01T15:00:00+00:00,Chelsea,null - null,West Ham,Stamford Bridge,N/A
+2025-02-01T15:00:00+00:00,Brentford,null - null,Tottenham,Gtech Community Stadium,N/A
+2025-02-01T15:00:00+00:00,Ipswich,null - null,Southampton,Portman Road,N/A
+2025-02-01T15:00:00+00:00,Nottingham Forest,null - null,Brighton,The City Ground,N/A
+2025-02-15T15:00:00+00:00,Fulham,null - null,Nottingham Forest,Craven Cottage,N/A
+2025-02-15T15:00:00+00:00,Liverpool,null - null,Wolves,Anfield,N/A
+2025-02-15T15:00:00+00:00,Southampton,null - null,Bournemouth,St. Mary's Stadium,N/A
+2025-02-15T15:00:00+00:00,Leicester,null - null,Arsenal,King Power Stadium,N/A
+2025-02-15T15:00:00+00:00,Tottenham,null - null,Manchester United,Tottenham Hotspur Stadium,N/A
+2025-02-15T15:00:00+00:00,West Ham,null - null,Brentford,London Stadium,N/A
+2025-02-15T15:00:00+00:00,Manchester City,null - null,Newcastle,Etihad Stadium,N/A
+2025-02-15T15:00:00+00:00,Brighton,null - null,Chelsea,American Express Stadium,N/A
+2025-02-15T15:00:00+00:00,Crystal Palace,null - null,Everton,Selhurst Park,N/A
+2025-02-15T15:00:00+00:00,Aston Villa,null - null,Ipswich,Villa Park,N/A
+2025-02-22T15:00:00+00:00,Newcastle,null - null,Nottingham Forest,St. James' Park,N/A
+2025-02-22T15:00:00+00:00,Bournemouth,null - null,Wolves,Vitality Stadium,N/A
+2025-02-22T15:00:00+00:00,Fulham,null - null,Crystal Palace,Craven Cottage,N/A
+2025-02-22T15:00:00+00:00,Southampton,null - null,Brighton,St. Mary's Stadium,N/A
+2025-02-22T15:00:00+00:00,Arsenal,null - null,West Ham,Emirates Stadium,N/A
+2025-02-22T15:00:00+00:00,Everton,null - null,Manchester United,Goodison Park,N/A
+2025-02-22T15:00:00+00:00,Leicester,null - null,Brentford,King Power Stadium,N/A
+2025-02-22T15:00:00+00:00,Manchester City,null - null,Liverpool,Etihad Stadium,N/A
+2025-02-22T15:00:00+00:00,Ipswich,null - null,Tottenham,Portman Road,N/A
+2025-02-22T15:00:00+00:00,Aston Villa,null - null,Chelsea,Villa Park,N/A
+2025-02-25T19:45:00+00:00,Wolves,null - null,Fulham,Molineux Stadium,N/A
+2025-02-25T19:45:00+00:00,Tottenham,null - null,Manchester City,Tottenham Hotspur Stadium,N/A
+2025-02-25T19:45:00+00:00,West Ham,null - null,Leicester,London Stadium,N/A
+2025-02-25T19:45:00+00:00,Brighton,null - null,Bournemouth,American Express Stadium,N/A
+2025-02-25T19:45:00+00:00,Brentford,null - null,Everton,Gtech Community Stadium,N/A
+2025-02-25T19:45:00+00:00,Nottingham Forest,null - null,Arsenal,The City Ground,N/A
+2025-02-25T20:00:00+00:00,Crystal Palace,null - null,Aston Villa,Selhurst Park,N/A
+2025-02-26T19:45:00+00:00,Chelsea,null - null,Southampton,Stamford Bridge,N/A
+2025-02-26T20:00:00+00:00,Manchester United,null - null,Ipswich,Old Trafford,N/A
+2025-02-26T20:00:00+00:00,Liverpool,null - null,Newcastle,Anfield,N/A
+2025-03-08T15:00:00+00:00,Manchester United,null - null,Arsenal,Old Trafford,N/A
+2025-03-08T15:00:00+00:00,Wolves,null - null,Everton,Molineux Stadium,N/A
+2025-03-08T15:00:00+00:00,Liverpool,null - null,Southampton,Anfield,N/A
+2025-03-08T15:00:00+00:00,Tottenham,null - null,Bournemouth,Tottenham Hotspur Stadium,N/A
+2025-03-08T15:00:00+00:00,West Ham,null - null,Newcastle,London Stadium,N/A
+2025-03-08T15:00:00+00:00,Chelsea,null - null,Leicester,Stamford Bridge,N/A
+2025-03-08T15:00:00+00:00,Brighton,null - null,Fulham,American Express Stadium,N/A
+2025-03-08T15:00:00+00:00,Crystal Palace,null - null,Ipswich,Selhurst Park,N/A
+2025-03-08T15:00:00+00:00,Brentford,null - null,Aston Villa,Gtech Community Stadium,N/A
+2025-03-08T15:00:00+00:00,Nottingham Forest,null - null,Manchester City,The City Ground,N/A
+2025-03-15T15:00:00+00:00,Newcastle,null - null,Crystal Palace,St. James' Park,N/A
+2025-03-15T15:00:00+00:00,Bournemouth,null - null,Brentford,Vitality Stadium,N/A
+2025-03-15T15:00:00+00:00,Fulham,null - null,Tottenham,Craven Cottage,N/A
+2025-03-15T15:00:00+00:00,Southampton,null - null,Wolves,St. Mary's Stadium,N/A
+2025-03-15T15:00:00+00:00,Arsenal,null - null,Chelsea,Emirates Stadium,N/A
+2025-03-15T15:00:00+00:00,Everton,null - null,West Ham,Goodison Park,N/A
+2025-03-15T15:00:00+00:00,Leicester,null - null,Manchester United,King Power Stadium,N/A
+2025-03-15T15:00:00+00:00,Manchester City,null - null,Brighton,Etihad Stadium,N/A
+2025-03-15T15:00:00+00:00,Ipswich,null - null,Nottingham Forest,Portman Road,N/A
+2025-03-15T15:00:00+00:00,Aston Villa,null - null,Liverpool,Villa Park,N/A
+2025-04-01T18:45:00+00:00,Bournemouth,null - null,Ipswich,Vitality Stadium,N/A
+2025-04-01T18:45:00+00:00,Wolves,null - null,West Ham,Molineux Stadium,N/A
+2025-04-01T18:45:00+00:00,Arsenal,null - null,Fulham,Emirates Stadium,N/A
+2025-04-01T18:45:00+00:00,Brighton,null - null,Aston Villa,American Express Stadium,N/A
+2025-04-01T18:45:00+00:00,Nottingham Forest,null - null,Manchester United,The City Ground,N/A
+2025-04-02T18:45:00+00:00,Newcastle,null - null,Brentford,St. James' Park,N/A
+2025-04-02T18:45:00+00:00,Southampton,null - null,Crystal Palace,St. Mary's Stadium,N/A
+2025-04-02T18:45:00+00:00,Chelsea,null - null,Tottenham,Stamford Bridge,N/A
+2025-04-02T18:45:00+00:00,Manchester City,null - null,Leicester,Etihad Stadium,N/A
+2025-04-02T19:00:00+00:00,Liverpool,null - null,Everton,Anfield,N/A
+2025-04-05T14:00:00+00:00,Manchester United,null - null,Manchester City,Old Trafford,N/A
+2025-04-05T14:00:00+00:00,Fulham,null - null,Liverpool,Craven Cottage,N/A
+2025-04-05T14:00:00+00:00,Everton,null - null,Arsenal,Goodison Park,N/A
+2025-04-05T14:00:00+00:00,Leicester,null - null,Newcastle,King Power Stadium,N/A
+2025-04-05T14:00:00+00:00,Tottenham,null - null,Southampton,Tottenham Hotspur Stadium,N/A
+2025-04-05T14:00:00+00:00,West Ham,null - null,Bournemouth,London Stadium,N/A
+2025-04-05T14:00:00+00:00,Crystal Palace,null - null,Brighton,Selhurst Park,N/A
+2025-04-05T14:00:00+00:00,Brentford,null - null,Chelsea,Gtech Community Stadium,N/A
+2025-04-05T14:00:00+00:00,Ipswich,null - null,Wolves,Portman Road,N/A
+2025-04-05T14:00:00+00:00,Aston Villa,null - null,Nottingham Forest,Villa Park,N/A
+2025-04-12T14:00:00+00:00,Newcastle,null - null,Manchester United,St. James' Park,N/A
+2025-04-12T14:00:00+00:00,Bournemouth,null - null,Fulham,Vitality Stadium,N/A
+2025-04-12T14:00:00+00:00,Wolves,null - null,Tottenham,Molineux Stadium,N/A
+2025-04-12T14:00:00+00:00,Liverpool,null - null,West Ham,Anfield,N/A
+2025-04-12T14:00:00+00:00,Southampton,null - null,Aston Villa,St. Mary's Stadium,N/A
+2025-04-12T14:00:00+00:00,Arsenal,null - null,Brentford,Emirates Stadium,N/A
+2025-04-12T14:00:00+00:00,Chelsea,null - null,Ipswich,Stamford Bridge,N/A
+2025-04-12T14:00:00+00:00,Manchester City,null - null,Crystal Palace,Etihad Stadium,N/A
+2025-04-12T14:00:00+00:00,Brighton,null - null,Leicester,American Express Stadium,N/A
+2025-04-12T14:00:00+00:00,Nottingham Forest,null - null,Everton,The City Ground,N/A
+2025-04-19T14:00:00+00:00,Manchester United,null - null,Wolves,Old Trafford,N/A
+2025-04-19T14:00:00+00:00,Fulham,null - null,Chelsea,Craven Cottage,N/A
+2025-04-19T14:00:00+00:00,Everton,null - null,Manchester City,Goodison Park,N/A
+2025-04-19T14:00:00+00:00,Leicester,null - null,Liverpool,King Power Stadium,N/A
+2025-04-19T14:00:00+00:00,Tottenham,null - null,Nottingham Forest,Tottenham Hotspur Stadium,N/A
+2025-04-19T14:00:00+00:00,West Ham,null - null,Southampton,London Stadium,N/A
+2025-04-19T14:00:00+00:00,Crystal Palace,null - null,Bournemouth,Selhurst Park,N/A
+2025-04-19T14:00:00+00:00,Brentford,null - null,Brighton,Gtech Community Stadium,N/A
+2025-04-19T14:00:00+00:00,Ipswich,null - null,Arsenal,Portman Road,N/A
+2025-04-19T14:00:00+00:00,Aston Villa,null - null,Newcastle,Villa Park,N/A
+2025-04-26T14:00:00+00:00,Newcastle,null - null,Ipswich,St. James' Park,N/A
+2025-04-26T14:00:00+00:00,Bournemouth,null - null,Manchester United,Vitality Stadium,N/A
+2025-04-26T14:00:00+00:00,Wolves,null - null,Leicester,Molineux Stadium,N/A
+2025-04-26T14:00:00+00:00,Liverpool,null - null,Tottenham,Anfield,N/A
+2025-04-26T14:00:00+00:00,Southampton,null - null,Fulham,St. Mary's Stadium,N/A
+2025-04-26T14:00:00+00:00,Arsenal,null - null,Crystal Palace,Emirates Stadium,N/A
+2025-04-26T14:00:00+00:00,Chelsea,null - null,Everton,Stamford Bridge,N/A
+2025-04-26T14:00:00+00:00,Manchester City,null - null,Aston Villa,Etihad Stadium,N/A
+2025-04-26T14:00:00+00:00,Brighton,null - null,West Ham,American Express Stadium,N/A
+2025-04-26T14:00:00+00:00,Nottingham Forest,null - null,Brentford,The City Ground,N/A
+2025-05-03T14:00:00+00:00,Arsenal,null - null,Bournemouth,Emirates Stadium,N/A
+2025-05-03T14:00:00+00:00,Everton,null - null,Ipswich,Goodison Park,N/A
+2025-05-03T14:00:00+00:00,Leicester,null - null,Southampton,King Power Stadium,N/A
+2025-05-03T14:00:00+00:00,West Ham,null - null,Tottenham,London Stadium,N/A
+2025-05-03T14:00:00+00:00,Chelsea,null - null,Liverpool,Stamford Bridge,N/A
+2025-05-03T14:00:00+00:00,Manchester City,null - null,Wolves,Etihad Stadium,N/A
+2025-05-03T14:00:00+00:00,Brighton,null - null,Newcastle,American Express Stadium,N/A
+2025-05-03T14:00:00+00:00,Crystal Palace,null - null,Nottingham Forest,Selhurst Park,N/A
+2025-05-03T14:00:00+00:00,Brentford,null - null,Manchester United,Gtech Community Stadium,N/A
+2025-05-03T14:00:00+00:00,Aston Villa,null - null,Fulham,Villa Park,N/A
+2025-05-10T14:00:00+00:00,Manchester United,null - null,West Ham,Old Trafford,N/A
+2025-05-10T14:00:00+00:00,Newcastle,null - null,Chelsea,St. James' Park,N/A
+2025-05-10T14:00:00+00:00,Bournemouth,null - null,Aston Villa,Vitality Stadium,N/A
+2025-05-10T14:00:00+00:00,Fulham,null - null,Everton,Craven Cottage,N/A
+2025-05-10T14:00:00+00:00,Wolves,null - null,Brighton,Molineux Stadium,N/A
+2025-05-10T14:00:00+00:00,Liverpool,null - null,Arsenal,Anfield,N/A
+2025-05-10T14:00:00+00:00,Southampton,null - null,Manchester City,St. Mary's Stadium,N/A
+2025-05-10T14:00:00+00:00,Tottenham,null - null,Crystal Palace,Tottenham Hotspur Stadium,N/A
+2025-05-10T14:00:00+00:00,Ipswich,null - null,Brentford,Portman Road,N/A
+2025-05-10T14:00:00+00:00,Nottingham Forest,null - null,Leicester,The City Ground,N/A
+2025-05-18T14:00:00+00:00,Arsenal,null - null,Newcastle,Emirates Stadium,N/A
+2025-05-18T14:00:00+00:00,Everton,null - null,Southampton,Goodison Park,N/A
+2025-05-18T14:00:00+00:00,Leicester,null - null,Ipswich,King Power Stadium,N/A
+2025-05-18T14:00:00+00:00,West Ham,null - null,Nottingham Forest,London Stadium,N/A
+2025-05-18T14:00:00+00:00,Chelsea,null - null,Manchester United,Stamford Bridge,N/A
+2025-05-18T14:00:00+00:00,Manchester City,null - null,Bournemouth,Etihad Stadium,N/A
+2025-05-18T14:00:00+00:00,Brighton,null - null,Liverpool,American Express Stadium,N/A
+2025-05-18T14:00:00+00:00,Crystal Palace,null - null,Wolves,Selhurst Park,N/A
+2025-05-18T14:00:00+00:00,Brentford,null - null,Fulham,Gtech Community Stadium,N/A
+2025-05-18T14:00:00+00:00,Aston Villa,null - null,Tottenham,Villa Park,N/A
+2025-05-25T15:00:00+00:00,Manchester United,null - null,Aston Villa,Old Trafford,N/A
+2025-05-25T15:00:00+00:00,Newcastle,null - null,Everton,St. James' Park,N/A
+2025-05-25T15:00:00+00:00,Bournemouth,null - null,Leicester,Vitality Stadium,N/A
+2025-05-25T15:00:00+00:00,Fulham,null - null,Manchester City,Craven Cottage,N/A
+2025-05-25T15:00:00+00:00,Wolves,null - null,Brentford,Molineux Stadium,N/A
+2025-05-25T15:00:00+00:00,Liverpool,null - null,Crystal Palace,Anfield,N/A
+2025-05-25T15:00:00+00:00,Southampton,null - null,Arsenal,St. Mary's Stadium,N/A
+2025-05-25T15:00:00+00:00,Tottenham,null - null,Brighton,Tottenham Hotspur Stadium,N/A
+2025-05-25T15:00:00+00:00,Ipswich,null - null,West Ham,Portman Road,N/A
+2025-05-25T15:00:00+00:00,Nottingham Forest,null - null,Chelsea,The City Ground,N/A
