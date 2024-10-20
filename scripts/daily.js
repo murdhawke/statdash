@@ -30,17 +30,18 @@ async function fetchPremierLeagueResults() {
             return;
         }
 
-        // Create CSV writer with headers
+        // Create CSV file path
         const csvFilePath = './premier_league_results.csv';
-        let writer;
 
-        if (!fs.existsSync(csvFilePath)) {
-            writer = csvWriter({ headers: ['Date', 'Home Team', 'Score', 'Away Team', 'Venue', 'Referee'] });
-            writer.pipe(fs.createWriteStream(csvFilePath));
-        } else {
-            writer = csvWriter({ sendHeaders: false });
-            writer.pipe(fs.createWriteStream(csvFilePath, { flags: 'a' }));
+        // Check if the CSV file exists, and delete it if it does
+        if (fs.existsSync(csvFilePath)) {
+            fs.unlinkSync(csvFilePath); // Delete the existing file
+            console.log('Existing CSV file deleted. A new one will be created.');
         }
+
+        // Create CSV writer with headers
+        const writer = csvWriter({ headers: ['Date', 'Home Team', 'Score', 'Away Team', 'Venue', 'Referee'] });
+        writer.pipe(fs.createWriteStream(csvFilePath));
 
         // Iterate over fixtures and write data to CSV
         fixtures.forEach((fixture) => {
@@ -57,9 +58,8 @@ async function fetchPremierLeagueResults() {
 
         writer.end();
         console.log('Scraping and saving completed.');
-        // Removed process.exit(0); to keep the script running
     } catch (error) {
-        console.error('Error fetching Premier League results:', error.response ? error.response.data : error.message);
+        console.error('Error fetching Premier League results:', error.message || error);
     }
 }
 
